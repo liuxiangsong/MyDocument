@@ -1,0 +1,43 @@
+{
+  "window.zoomLevel": 0,
+  "vetur.format.scriptInitialIndent": true,
+  "vetur.format.styleInitialIndent": true,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-aligned"
+    }
+  },
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "editor.tabSize": 2,
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.iconTheme": "vscode-icons",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "One Dark Pro",
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "explorer.compactFolders": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
+  "eslint.format.enable": true,  
+  "eslint.validate":["javascript", "javascriptreact","vue"],
+  "update.mode": "manual",
+  "editor.wordWrapColumn": 200,
+  "todo-tree.tree.showScanModeButton": false,
+  "editor.fontSize": 15
+}

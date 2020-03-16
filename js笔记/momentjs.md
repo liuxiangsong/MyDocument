@@ -1,16 +1,16 @@
 - 格式化
-  ```
+  ```js
   moment().format('YYYY-MM-DD HH:mm:ss')
   ```
 
 - 加减
-  ```
+  ```js
   moment().add(7, 'd')
   moment().subtract(7, 'days');
   ```
 
 - 比较
-  ``` 
+  ```js
   moment().diff('2020.01.01', 'd')
 
   moment('2020-01-01 20:22:22').isSame('2020-01-01 22:11:11', 'day');     //true
@@ -27,7 +27,7 @@
   ```
  
 - 取值、赋值
-  ```
+  ```js
   moment("2012-02", "YYYY-MM").daysInMonth() // 29
   moment("2012-01", "YYYY-MM").daysInMonth() // 31
   ```
