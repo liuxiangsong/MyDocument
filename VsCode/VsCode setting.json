@@ -5,7 +5,7 @@
   "vetur.format.defaultFormatter.html": "js-beautify-html",
   "vetur.format.defaultFormatterOptions": {
     "js-beautify-html": {
-      "wrap_attributes": "force-aligned"
+      "wrap_attributes": "auto"
     }
   },
   "prettier.singleQuote": true,
@@ -13,12 +13,22 @@
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
   "javascript.implicitProjectConfig.experimentalDecorators": true,
   "editor.tabSize": 2,
+  "editor.foldingStrategy": "indentation",
+  "editor.wordWrapColumn": 200,
+  "editor.fontSize": 15,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
   "vsicons.dontShowNewVersionMessage": true,
   "workbench.iconTheme": "vscode-icons",
   "[javascript]": {
+    "editor.formatOnSave": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[vue]": {
+    "editor.formatOnSave": false, //vue文件关闭编辑器保存格式化功能
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[scss]": {
@@ -30,14 +40,12 @@
   "workbench.colorTheme": "One Dark Pro",
   "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
   "explorer.compactFolders": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    "source.fixAll.eslint": true
-  },
-  "eslint.format.enable": true,  
-  "eslint.validate":["javascript", "javascriptreact","vue"],
+  "eslint.format.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ],
   "update.mode": "manual",
-  "editor.wordWrapColumn": 200,
   "todo-tree.tree.showScanModeButton": false,
-  "editor.fontSize": 15
 }
