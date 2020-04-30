@@ -28,8 +28,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[vue]": {
-    "editor.formatOnSave": false, //vue文件关闭编辑器保存格式化功能
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "octref.vetur",
   },
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -37,7 +37,6 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "One Dark Pro",
   "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
   "explorer.compactFolders": false,
   "eslint.format.enable": true,
@@ -46,6 +45,8 @@
     "javascriptreact",
     "vue"
   ],
-  "update.mode": "manual",
   "todo-tree.tree.showScanModeButton": false,
+  "editor.wordWrap": "off",
+  "workbench.colorTheme": "One Monokai",
+  "diffEditor.ignoreTrimWhitespace": false,
 }
